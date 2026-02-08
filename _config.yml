@@ -1,6 +1,6 @@
 theme: jekyll-theme-minimal
-title: Python Guides
-description: Learn Python basics, loops, strings, and more.
+title: Interviews Knowledge Base
+description: Guides for Python, interviews, and more.
 
 plugins:
   - jekyll-relative-links
