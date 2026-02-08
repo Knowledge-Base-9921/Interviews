@@ -22,3 +22,20 @@ details > div { padding: 1rem; }
 body { font-size: 1.05em; line-height: 1.7; }
 h1, h2, h3 { color: #2c3e50; }
 code { background: #f4f4f4; padding: 2px 4px; border-radius: 3px; }
+
+/* Tables Inside Details */
+details table {
+  margin: 1em 0;
+  width: 100%;
+}
+details th, details td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* Fix Text Density */
+details p, details li {
+  margin-bottom: 1em;
+  line-height: 1.6;
+}
+
