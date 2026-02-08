@@ -14,12 +14,12 @@
 
 * Python is an **open source**, **high-level**, **interpreted**, **general-purpose** programming language.
 
-    | Term | Definition |
-    |:-----|:-----------|
-    | Open-source | Freely available source code anyone can modify, distribute, or contribute to (via GitHub) fostering community-driven improvements. |
-    | High-Level | Abstraction of low-level memory management. z.B., List comprehension for python, no need to specify C like pointers |
-    | Interpreted | Runs line-by-line + no compilation step like C/C++/Java |
-    | General-Purpose | Versatility in use cases mentioned above: Data Science, ML, DL, Web Development, LLM |
+    | Term          | Definition |
+    |---------------|------------|
+    | Open-source   | Freely available source code anyone can modify, distribute, or contribute to (via GitHub) fostering community-driven improvements. |
+    | High-Level    | Abstraction of low-level memory management. z.B., List comprehension for python, no need to specify C like pointers. |
+    | Interpreted   | Runs line-by-line + no compilation step like C/C++/Java. |
+    | General-Purpose | Versatility in use cases: Data Science, ML, DL, Web Development, LLM. |
 
 * **Executable Pseudocode**:
     * Python's **indentation-based syntax** reads like pseudocode.
