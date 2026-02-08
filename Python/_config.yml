@@ -1,0 +1,13 @@
+theme: jekyll-theme-minimal
+title: Python Guides
+description: Learn Python basics, loops, strings, and more.
+
+plugins:
+  - jekyll-relative-links
+
+relative_links:
+  enabled: true
+  collections: true
+
+include:
+  - README.md
