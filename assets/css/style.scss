@@ -1,56 +1,24 @@
-/* Import theme first */
-@import "github-pages";
+---
+---
 
-/* Enhanced Tables */
-table {
-  border-collapse: collapse;
-  margin: 1.5em 0;
-  width: 100%;
-  font-size: 0.95em;
-}
-th, td {
-  border: 1px solid #ddd;
-  padding: 12px 8px;
-  text-align: left;
-}
-th {
-  background-color: #f4f4f4;
-  font-weight: bold;
-}
-tr:nth-child(even) {
-  background-color: #fafafa;
-}
-tr:hover {
-  background-color: #f1f1f1;
-}
+/* Tables: Borders, stripes, hover */
+table { border-collapse: collapse; width: 100%; margin: 1em 0; }
+th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+th { background: #f4f4f4; font-weight: bold; }
+tr:nth-child(even) { background: #f9f9f9; }
+tr:hover { background: #f0f0f0; }
 
-/* Fix Lists (bullets, spacing) */
-ul, ol {
-  padding-left: 2em;
-  margin: 1em 0;
-}
-li {
-  margin-bottom: 0.5em;
-  line-height: 1.6;
-}
+/* Lists: Bullets, spacing */
+ul, ol { padding-left: 2rem; margin: 1rem 0; line-height: 1.6; }
+li { margin-bottom: 0.5rem; }
 
-/* Details/Summary Collapsibles */
-details {
-  margin: 1.5em 0;
-  border: 1px solid #e0e0e0;
-  border-radius: 6px;
-  overflow: hidden;
-}
-summary {
-  padding: 1em;
-  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-  font-weight: 600;
-  cursor: pointer;
-  list-style: none; /* Remove default marker */
-}
-details[open] summary {
-  background: linear-gradient(135deg, #e9ecef 0%, #dee2e6 100%);
-}
-details > *:not(summary) {
-  padding: 1em;
-}
+/* Details/Summary: Accordions */
+details { margin: 1.5rem 0; border: 1px solid #e1e5e9; border-radius: 8px; }
+summary { padding: 1rem; background: #f8f9fa; font-weight: 600; cursor: pointer; }
+details[open] summary { background: #e9ecef; }
+details > div { padding: 1rem; }
+
+/* General: Typography */
+body { font-size: 1.05em; line-height: 1.7; }
+h1, h2, h3 { color: #2c3e50; }
+code { background: #f4f4f4; padding: 2px 4px; border-radius: 3px; }
