@@ -5,12 +5,6 @@ description: Guides for Python, interviews, and more.
 plugins:
   - jekyll-relative-links
 
-kramdown:
-  parse_block_html: true
-
-sass:
-  style: compressed  # Compiles SCSS efficiently
-
 relative_links:
   enabled: true
   collections: true
