@@ -1,37 +1,56 @@
-@import "{{ site.theme }}";
+/* Import theme first */
+@import "github-pages";
 
-/* Better Tables */
+/* Enhanced Tables */
 table {
   border-collapse: collapse;
+  margin: 1.5em 0;
   width: 100%;
-  margin: 1em 0;
+  font-size: 0.95em;
 }
 th, td {
   border: 1px solid #ddd;
-  padding: 8px;
+  padding: 12px 8px;
   text-align: left;
 }
 th {
-  background-color: #f2f2f2;
+  background-color: #f4f4f4;
+  font-weight: bold;
 }
 tr:nth-child(even) {
-  background-color: #f9f9f9;
+  background-color: #fafafa;
+}
+tr:hover {
+  background-color: #f1f1f1;
 }
 
-/* Beautify Details/Summary */
-details {
+/* Fix Lists (bullets, spacing) */
+ul, ol {
+  padding-left: 2em;
   margin: 1em 0;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 0.5em;
+}
+li {
+  margin-bottom: 0.5em;
+  line-height: 1.6;
+}
+
+/* Details/Summary Collapsibles */
+details {
+  margin: 1.5em 0;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  overflow: hidden;
 }
 summary {
+  padding: 1em;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  font-weight: 600;
   cursor: pointer;
-  font-weight: bold;
-  padding: 0.5em;
-  background: #f8f9fa;
-  border-radius: 3px;
+  list-style: none; /* Remove default marker */
 }
 details[open] summary {
-  background: #e9ecef;
+  background: linear-gradient(135deg, #e9ecef 0%, #dee2e6 100%);
+}
+details > *:not(summary) {
+  padding: 1em;
 }
