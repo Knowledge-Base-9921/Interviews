@@ -8,10 +8,6 @@
 
 ### 1. What is Python? Enlist some of its benefits
 
-<details>
-
-<summary>Notes: Click to expand</summary>
-
 * Python is an **open source**, **high-level**, **interpreted**, **general-purpose** programming language.
 
     | Term          | Definition |
@@ -34,6 +30,12 @@
     * Versatile: Used in Data Science, ML, DL, Web Development
     * Libraries: Vast collection of libaries and pre-built modules for various tasks.
     * Cross-Platform: Can run on different operating systems.
+
+<details>
+
+<summary>Notes: Click to expand</summary>
+
+
 
 </details>
 
